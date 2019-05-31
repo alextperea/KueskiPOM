@@ -17,8 +17,8 @@ public class BasePage {
 	}
 	
 	public void click(WebElement element) {
-		driver.findElement(element);
 		wait.until(ExpectedConditions.visibilityOf(element));
+		element.click();
 	}
 	
 	
