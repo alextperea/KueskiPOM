@@ -21,5 +21,10 @@ public class BasePage {
 		element.click();
 	}
 	
+	public void type(WebElement element, String text) {
+		wait.until(ExpectedConditions.visibilityOf(element));
+		element.sendKeys(text);
+	}
+	
 	
 }
