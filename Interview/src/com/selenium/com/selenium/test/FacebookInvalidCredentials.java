@@ -7,10 +7,10 @@ import com.selenium.pages.GooglePage;
 
 import DataProvider.provider;
 
-public class FacebookHappyPathTest extends BaseTest{
+public class FacebookInvalidCredentials extends BaseTest {
 
-	@Test(dataProvider = "Facebook HappyPath", dataProviderClass = provider.class)
-	public void validCredentials(String text1, String text2, String text3) {
+	@Test(dataProvider = "Facebook InvalidData", dataProviderClass = provider.class)
+	public void FacebookCredentialsTest(String text1, String text2, String text3) {
 		
 		GooglePage google = new GooglePage(driver);
 		google.typeText(text1);
@@ -20,5 +20,8 @@ public class FacebookHappyPathTest extends BaseTest{
 		face.typeUser(text2);
 		face.typePassword(text3);
 		face.clickLogin();
+		
 	}
+	
+	
 }
