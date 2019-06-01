@@ -12,11 +12,18 @@ public class GooglePage extends BasePage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath = "//div[@class = 'vdLsw gsfi']")
+	@FindBy(xpath = "//input[@class = 'gLFyf gsfi']")
 	WebElement textBox;
+	@FindBy(xpath = "//div[@class = 'FPdoLc VlcLAe']/center/input[2]")
+	WebElement searchButton;
+	
 	
 	public void typeText(String text) {
 		type(textBox, text);
+	}
+	
+	public void clickSearchButton() {
+		click(searchButton);
 	}
 	
 	
