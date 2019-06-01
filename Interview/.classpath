@@ -13,5 +13,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/alejandro topete/Downloads/apache-log4j-2.8-bin/log4j-api-2.8.jar"/>
+	<classpathentry kind="lib" path="/Users/alejandro topete/Downloads/apache-log4j-2.8-bin/log4j-core-2.8.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

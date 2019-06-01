@@ -17,7 +17,8 @@ public class provider {
 	@DataProvider(name = "Facebook InvalidData")
 	public Object[][] invalidCredentials(){
 		return new Object[][] {
-			{"Facebook", "alex_atp93@hotmail.com", "ATP150493"}
+			{"Facebook", "alex_atp93@hotmail.com", "ATP150493"},
+			{"Facebook","","ATP1234ed"}
 			
 		};
 		
