@@ -26,5 +26,9 @@ public class BasePage {
 		element.sendKeys(text);
 	}
 	
+	public void getEementText(WebElement element) {
+		wait.until(ExpectedConditions.visibilityOf(element));
+		element.getText();
+	}
 	
 }

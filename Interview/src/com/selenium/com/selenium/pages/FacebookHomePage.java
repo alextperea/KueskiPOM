@@ -31,6 +31,10 @@ public class FacebookHomePage extends BasePage{
 		click(loginButton);
 	}
 	
+	public void getText() {
+		getEementText(userBox);
+	}
+	
 
 	
 }
