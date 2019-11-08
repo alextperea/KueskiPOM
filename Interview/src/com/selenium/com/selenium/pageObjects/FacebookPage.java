@@ -1,8 +1,10 @@
 package com.selenium.pageObjects;
 
+import Locators.Locators;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class FacebookPage extends PageBase {
@@ -13,13 +15,26 @@ public class FacebookPage extends PageBase {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy()
+    @FindBy(how = How.ID, using = Locators.FacebookLocators.EMAIL_TXT)
     WebElement email;
 
-    @FindBy()
+    @FindBy(how = How.ID, using = Locators.FacebookLocators.PASS_TXT)
     WebElement password;
 
-    @FindBy()
+    @FindBy(how = How.ID, using = Locators.FacebookLocators.LOGIN_BTN)
     WebElement loginButton;
+
+
+    public void typeEmail(String text){
+        type(email, text);
+    }
+
+    public void typePassword(String text){
+        type(password, text);
+    }
+
+    public void clickLogin(){
+        click(loginButton);
+    }
 
 }

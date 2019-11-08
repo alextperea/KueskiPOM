@@ -26,7 +26,7 @@ public class PageBase {
     }
 
     public void type(WebElement element, String text){
-        wait.until(ExpectedConditions.visibilityOf(element));
+        wait.until(ExpectedConditions.elementToBeSelected(element));
         element.sendKeys(text);
     }
 

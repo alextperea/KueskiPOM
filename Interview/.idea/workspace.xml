@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0304147b-b5aa-4f50-9f6f-72e53dec68be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/selenium/Locators/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/selenium/com/selenium/Config/PropertiesReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/GoogleSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/PageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/selenium/com/selenium/test/HappyPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/selenium/com/selenium/test/Setup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/selenium/com/selenium/Config/PropertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/selenium/com/selenium/Config/PropertiesReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/FacebookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/FacebookPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/GoogleSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/GoogleSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/selenium/com/selenium/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/selenium/com/selenium/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/selenium/com/selenium/test/HappyPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/selenium/com/selenium/test/HappyPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/selenium/com/selenium/test/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/selenium/com/selenium/test/Setup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,54 +23,90 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/test/Setup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/test/HappyPathTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/selenium/Locators/Locators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/GoogleSearchPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.6865672">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/test/HappyPathTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/PageBase.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/GoogleSearchPage.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#695#696#0" expanded="true" />
+                    <element signature="e#730#731#0" expanded="true" />
+                    <element signature="e#762#763#0" expanded="true" />
+                    <element signature="e#797#798#0" expanded="true" />
+                    <element signature="e#836#837#0" expanded="true" />
+                    <element signature="e#866#867#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/test/Setup.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1740#1741#0" expanded="true" />
+                    <element signature="e#1761#1762#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/selenium/Locators/Locators.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/resources/config.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,11 +135,14 @@
         <option value="$PROJECT_DIR$/src/com/selenium/com/selenium/test/FacebookInvalidCredentials.java" />
         <option value="$PROJECT_DIR$/src/com/selenium/com/selenium/test/TestBase.java" />
         <option value="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/pageBase.java" />
+        <option value="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/FacebookPage.java" />
         <option value="$PROJECT_DIR$/src/com/selenium/com/selenium/Config/PropertiesReader.java" />
-        <option value="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/PageBase.java" />
-        <option value="$PROJECT_DIR$/src/com/selenium/com/selenium/test/Setup.java" />
+        <option value="$PROJECT_DIR$/src/com/selenium/com/selenium/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/GoogleSearchPage.java" />
+        <option value="$PROJECT_DIR$/src/com/selenium/com/selenium/test/HappyPathTest.java" />
         <option value="$PROJECT_DIR$/src/com/selenium/Locators/Locators.java" />
+        <option value="$PROJECT_DIR$/src/com/selenium/com/selenium/test/Setup.java" />
+        <option value="$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/PageBase.java" />
       </list>
     </option>
   </component>
@@ -185,15 +224,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
               <item name="Locators" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -220,24 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FacebookHappyPathTest.validCredentials (2)">
-    <configuration name="FacebookHappyPathTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.selenium.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.selenium.test" />
-      <option name="MAIN_CLASS_NAME" value="com.selenium.test.FacebookHappyPathTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.HappyPathTest.facebookLogin">
     <configuration name="FacebookHappyPathTest.validCredentials (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Interview" />
       <extension name="coverage">
@@ -292,12 +305,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HappyPathTest.facebookLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium.test" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.test.HappyPathTest" />
+      <option name="METHOD_NAME" value="facebookLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HappyPathTest.facebookLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium.test" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.test.HappyPathTest" />
+      <option name="METHOD_NAME" value="facebookLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HappyPathTest.facebookLogin" />
+        <item itemvalue="TestNG.HappyPathTest.facebookLogin (1)" />
         <item itemvalue="TestNG.FacebookHappyPathTest.validCredentials (2)" />
         <item itemvalue="TestNG.FacebookHappyPathTest.validCredentials" />
         <item itemvalue="TestNG.FacebookHappyPathTest.validCredentials (1)" />
-        <item itemvalue="TestNG.FacebookHappyPathTest" />
       </list>
     </recent_temporary>
   </component>
@@ -315,42 +365,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FacebookHappyPathTest_validCredentials - 2019.11.06 at 12h 53m 14s.xml">
-      <configuration name="FacebookHappyPathTest.validCredentials" configurationId="TestNG" />
+    <history-entry file="HappyPathTest_facebookLogin - 2019.11.08 at 14h 43m 29s.xml">
+      <configuration name="HappyPathTest.facebookLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FacebookHappyPathTest_validCredentials - 2019.11.07 at 14h 51m 13s.xml">
-      <configuration name="FacebookHappyPathTest.validCredentials" configurationId="TestNG" />
+    <history-entry file="HappyPathTest_facebookLogin - 2019.11.08 at 14h 43m 58s.xml">
+      <configuration name="HappyPathTest.facebookLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FacebookHappyPathTest_validCredentials - 2019.11.07 at 14h 58m 51s.xml">
-      <configuration name="FacebookHappyPathTest.validCredentials" configurationId="TestNG" />
+    <history-entry file="HappyPathTest_facebookLogin - 2019.11.08 at 14h 45m 16s.xml">
+      <configuration name="HappyPathTest.facebookLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FacebookHappyPathTest - 2019.11.07 at 15h 12m 10s.xml">
-      <configuration name="FacebookHappyPathTest" configurationId="TestNG" />
+    <history-entry file="HappyPathTest_facebookLogin - 2019.11.08 at 14h 47m 05s.xml">
+      <configuration name="HappyPathTest.facebookLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FacebookHappyPathTest_validCredentials_(1) - 2019.11.07 at 15h 16m 31s.xml">
-      <configuration name="FacebookHappyPathTest.validCredentials (1)" configurationId="TestNG" />
+    <history-entry file="HappyPathTest_facebookLogin - 2019.11.08 at 14h 49m 55s.xml">
+      <configuration name="HappyPathTest.facebookLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FacebookHappyPathTest_validCredentials - 2019.11.07 at 15h 18m 00s.xml">
-      <configuration name="FacebookHappyPathTest.validCredentials" configurationId="TestNG" />
+    <history-entry file="HappyPathTest_facebookLogin - 2019.11.08 at 14h 50m 08s.xml">
+      <configuration name="HappyPathTest.facebookLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FacebookHappyPathTest_validCredentials - 2019.11.07 at 15h 48m 12s.xml">
-      <configuration name="FacebookHappyPathTest.validCredentials" configurationId="TestNG" />
+    <history-entry file="HappyPathTest_facebookLogin - 2019.11.08 at 14h 56m 08s.xml">
+      <configuration name="HappyPathTest.facebookLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FacebookHappyPathTest_validCredentials - 2019.11.07 at 15h 52m 19s.xml">
-      <configuration name="FacebookHappyPathTest.validCredentials" configurationId="TestNG" />
+    <history-entry file="HappyPathTest_facebookLogin - 2019.11.08 at 14h 58m 39s.xml">
+      <configuration name="HappyPathTest.facebookLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FacebookHappyPathTest_validCredentials - 2019.11.07 at 15h 54m 17s.xml">
-      <configuration name="FacebookHappyPathTest.validCredentials" configurationId="TestNG" />
+    <history-entry file="HappyPathTest_facebookLogin - 2019.11.08 at 15h 01m 20s.xml">
+      <configuration name="HappyPathTest.facebookLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FacebookHappyPathTest_validCredentials_(2) - 2019.11.07 at 15h 58m 06s.xml">
-      <configuration name="FacebookHappyPathTest.validCredentials (2)" configurationId="TestNG" />
+    <history-entry file="HappyPathTest_facebookLogin - 2019.11.08 at 15h 02m 50s.xml">
+      <configuration name="HappyPathTest.facebookLogin" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2032967" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2032967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -359,13 +409,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34489796" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2112245" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24795918" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35204083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32857144" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.1734694" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2489796" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Dependency Viewer" order="10" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32959184" />
@@ -378,6 +428,24 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/selenium/com/selenium/test/Setup.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/selenium/com/selenium/test/HappyPathTest.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Interview.iml">
@@ -401,13 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1010">
           <caret line="967" column="18" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="451" selection-start-line="451" selection-end-line="451" />
         </state>
       </provider>
     </entry>
@@ -482,65 +543,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/resources/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/FacebookPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="555">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="342" selection-start-line="342" selection-end-line="342" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/Config/PropertiesReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="105">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/selenium/Locators/Locators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/test/Setup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/PageBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/test/Setup.java">
+    <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/GoogleSearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="68">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/test/HappyPathTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/selenium/com/selenium/pageObjects/GoogleSearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/selenium/Locators/Locators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

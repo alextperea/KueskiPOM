@@ -29,4 +29,8 @@ public class GoogleSearchPage extends PageBase{
         click(searchButton);
     }
 
+    public void goTo(String url){
+        driver.get(url);
+    }
+
 }
