@@ -1,6 +1,6 @@
-package com.selenium.pageObjects;
+package src.com.selenium.pageObjects;
 
-import Locators.Locators;
+import src.com.selenium.Locators.Locators;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class GoogleSearchPage extends PageBase{
+public class GoogleSearchPage extends PageBase {
 
     public GoogleSearchPage(WebDriver driver){
         super(driver);

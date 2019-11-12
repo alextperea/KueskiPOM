@@ -1,4 +1,4 @@
-package com.selenium.Config;
+package src.com.selenium.Config;
 
 import java.io.*;
 import java.util.Properties;

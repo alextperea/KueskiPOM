@@ -1,6 +1,6 @@
-package com.selenium.test;
+package src.com.selenium.test;
 
-import com.selenium.Config.PropertiesReader;
+import src.com.selenium.Config.PropertiesReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -14,7 +14,8 @@ public class Setup {
     protected WebDriver driver;
     public static Properties envProps;
 
-    private final String PATH_TO_ENVIRONMENT    = "/Users/alejandrotopete/repo/FacebookPOM/Interview/src/com/selenium/com/selenium/resources/config.properties";
+    //private final String PATH_TO_ENVIRONMENT    = "/Users/alejandrotopete/repo/FacebookPOM/Interview/src/com/selenium/com/selenium/resources/config.properties";
+    private final String PATH_TO_ENVIRONMENT    = "/Users/alejandrotopete/repo/POC-Square/Interview/src/com/selenium/resources/config.properties";
     private final String PATH_TO_CHROME_DRIVER  = "/Users/alejandrotopete/test_automation/drivers/chromedriver";
 
     @BeforeClass
@@ -31,6 +32,7 @@ public class Setup {
                 System.setProperty("webdriver.chrome.driver", PATH_TO_CHROME_DRIVER);
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
+                driver.get(envProps.getProperty("test.url"));
             break;
         }
     }
