@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
+
 public class GoogleSearchPage extends PageBase{
 
     public GoogleSearchPage(WebDriver driver){
@@ -14,19 +15,27 @@ public class GoogleSearchPage extends PageBase{
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(how = How.CLASS_NAME, using = Locators.GoogleLocators.SEARCH_TXT)
+    /**
+     * WebElement Section
+     */
+
+    @FindBy(how = How.XPATH, using = Locators.GoogleLocators.SEARCH_TXT)
     WebElement textBox;
 
     @FindBy(how = How.CLASS_NAME, using = Locators.GoogleLocators.SEARCH_BTN)
     WebElement searchButton;
 
+    /**
+     * Automated Section
+     *
+     */
 
     public void typeSearch(String text){
         type(textBox, text);
     }
 
     public void clickSearch(){
-        click(searchButton);
+        waitAndclick(searchButton);
     }
 
     public void goTo(String url){

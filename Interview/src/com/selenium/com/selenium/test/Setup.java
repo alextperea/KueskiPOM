@@ -23,7 +23,6 @@ public class Setup {
         envProps = readEnvironmentData();
 
         readEnvironmentData();
-        //System.setProperty("webdriver.chrome.driver", envProps.getProperty("test.driver.location"));
 
         String browser = envProps.getProperty("test.browser");
 

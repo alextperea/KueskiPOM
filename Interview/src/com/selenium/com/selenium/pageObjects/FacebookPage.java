@@ -15,6 +15,9 @@ public class FacebookPage extends PageBase {
         PageFactory.initElements(driver, this);
     }
 
+    @FindBy(how = How.CLASS_NAME, using = Locators.FacebookLocators.LINK_TO_HOME_PAGE)
+    WebElement linkToHomePage;
+
     @FindBy(how = How.ID, using = Locators.FacebookLocators.EMAIL_TXT)
     WebElement email;
 
@@ -24,6 +27,9 @@ public class FacebookPage extends PageBase {
     @FindBy(how = How.ID, using = Locators.FacebookLocators.LOGIN_BTN)
     WebElement loginButton;
 
+    public void clickLinkToPage(){
+        waitAndclick(linkToHomePage);
+    }
 
     public void typeEmail(String text){
         type(email, text);
@@ -34,7 +40,7 @@ public class FacebookPage extends PageBase {
     }
 
     public void clickLogin(){
-        click(loginButton);
+        waitAndclick(loginButton);
     }
 
 }
