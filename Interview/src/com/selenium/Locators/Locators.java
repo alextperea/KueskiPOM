@@ -15,7 +15,14 @@ public class Locators {
     }
 
     public class SquareHomePage{
-        public static final String START_ACCOUNT_BTN    = "//div[@class='column'/div/a[0]]";      // class name
-        public static final String SIGN_IN_BUTTON       = "display-inline-block"; // class name
+        public static final String START_ACCOUNT_BTN    = "//div[@data-entry-id='74vkmLx5EmjRT3unfDppLc']"; // xpath
+        public static final String SIGN_IN_BUTTON       = "//div[@data-entry-id='3hu11eu2OBxRl3pBHRSdSc']"; // xpath
     }
+
+    public class SquareLoginPage{
+        public static final String EMAIL_TXT            = "email";      // id
+        public static final String PASSWORD_TXT         = "password";   // id
+        public static final String SIGN_IN_BTN          = "sign-in-button"; // id
+    }
+
 }

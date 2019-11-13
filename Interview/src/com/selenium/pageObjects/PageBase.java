@@ -1,6 +1,5 @@
 package src.com.selenium.pageObjects;
 
-import src.com.selenium.test.Setup;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -8,6 +7,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.Properties;
+
+import static src.com.selenium.test.Setup.envProps;
 
 public class PageBase {
 
@@ -21,7 +22,7 @@ public class PageBase {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, 10);
         action = new Actions(this.driver);
-        props = Setup.envProps;
+        props = envProps;
     }
 
     public void waitAndclick(WebElement element){

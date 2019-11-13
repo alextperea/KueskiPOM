@@ -7,9 +7,9 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import src.com.selenium.Locators.Locators;
 
-public class SquareHomePage extends PageBase {
+public class SquareMainPage extends PageBase {
 
-    public SquareHomePage(WebDriver driver) {
+    public SquareMainPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
     }
@@ -20,16 +20,15 @@ public class SquareHomePage extends PageBase {
     @FindBy(how = How.XPATH, using = Locators.SquareHomePage.START_ACCOUNT_BTN)
     WebElement startAccount;
 
-    @FindBy(how = How.CLASS_NAME, using = Locators.SquareHomePage.SIGN_IN_BUTTON)
+    @FindBy(how = How.XPATH, using = Locators.SquareHomePage.SIGN_IN_BUTTON)
     WebElement signIn;
 
     /**
      * Automated Section
      */
 
-    public void clickStartAccount(){
-        waitAndclick(startAccount);
+    public void clickSignIn(){
+        waitAndclick(signIn);
     }
-
 
 }
