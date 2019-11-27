@@ -29,6 +29,7 @@ public class PageBase {
         try{
             wait.until(ExpectedConditions.visibilityOf(element));
             wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
