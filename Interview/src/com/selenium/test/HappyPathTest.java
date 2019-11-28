@@ -15,7 +15,6 @@ public class HappyPathTest extends Setup{
 
         SquareLoginPage login = new SquareLoginPage(driver);
         login.login(envProps.getProperty("test.user"), envProps.getProperty("test.password"));
-
     }
 
 }

@@ -31,7 +31,7 @@ public class Setup {
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
-                driver.get(envProps.getProperty("test.url"));
+                driver.get(envProps.getProperty("test.clipURL"));
             break;
 
             case "firefox":
