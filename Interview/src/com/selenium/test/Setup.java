@@ -16,7 +16,7 @@ public class Setup {
     protected WebDriver driver;
     public static Properties envProps;
 
-    private final String PATH_TO_ENVIRONMENT    = "/Users/alejandrotopete/repo/POC-Square/Interview/src/com/selenium/resources/config.properties";
+    private final String PATH_TO_ENVIRONMENT    = "./src/com/selenium/resources/config.properties";
 
     @BeforeClass
     public void browserSetup() throws Exception {
@@ -31,7 +31,6 @@ public class Setup {
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
-                driver.get(envProps.getProperty("test.clipURL"));
             break;
 
             case "firefox":

@@ -24,7 +24,9 @@ public class MerchantEndpoint extends BaseEndpoint {
 
         //RestAssured.baseURI = envProps.getProperty("test.baseUri");
 
-        String accessToken = given()
+        String accessToken =
+
+         given()
                 .headers(Utils.getBasicHeaders())
                 .body(Utils.getMerchantAuthBody(user))
         .when()

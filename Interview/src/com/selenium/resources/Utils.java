@@ -17,7 +17,7 @@ import static src.com.selenium.test.Setup.envProps;
 
 public class Utils {
 
-    public static final String JSON_PATH = "/Users/alejandrotopete/repo/POC-Square/Interview/src/com/selenium/resources/JsonFiles/";
+    public static final String JSON_PATH = "./src/com/selenium/resources/JsonFiles/";
 
     public static List<Header> getLoginHeaders(){
 

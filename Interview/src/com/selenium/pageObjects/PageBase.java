@@ -1,5 +1,6 @@
 package src.com.selenium.pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -29,7 +30,6 @@ public class PageBase {
         try{
             wait.until(ExpectedConditions.visibilityOf(element));
             wait.until(ExpectedConditions.elementToBeClickable(element)).click();
-
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -39,6 +39,14 @@ public class PageBase {
         try{
             wait.until(ExpectedConditions.visibilityOf(element)).sendKeys(text);
         } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void clearField(WebElement element){
+        try{
+            wait.until(ExpectedConditions.visibilityOf(element)).clear();
+        } catch (Exception e){
             e.printStackTrace();
         }
     }

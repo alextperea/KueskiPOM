@@ -8,6 +8,7 @@ public class APILoginTest extends Setup {
     @Test
     public void getAuthToken(){
 
+        driver.get(envProps.getProperty("test.clipURL"));
         MerchantEndpoint.getAuth(envProps.getProperty("test.user"));
 
 

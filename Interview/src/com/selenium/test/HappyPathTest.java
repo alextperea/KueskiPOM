@@ -11,6 +11,7 @@ public class HappyPathTest extends Setup{
     public void SquareAccountCreationTest(){
 
         SquareMainPage home = new SquareMainPage(driver);
+        driver.get(envProps.getProperty("test.squareURL"));
         home.clickSignIn();
 
         SquareLoginPage login = new SquareLoginPage(driver);
