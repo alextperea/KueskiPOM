@@ -1,5 +1,7 @@
 package src.com.selenium.Locators;
 
+import java.awt.*;
+
 public class Locators {
 
     public class SquareHomePage{
@@ -20,7 +22,11 @@ public class Locators {
         public static final String PASSWORD_TXT         = "Passwd"; // name
         public static final String CONFIRM_TXT          = "ConfirmPasswd"; // name
         public static final String NEXT_BTN             = "accountDetailsNext"; // id
+    }
 
+    public class GmailVerifyAccountPage{
+        public static final String PHONE_TXT    = "phoneNumberId"; //id
+        public static final String NEXT_BTN            = "gradsIdvPhoneNext"; //id
     }
 
 }

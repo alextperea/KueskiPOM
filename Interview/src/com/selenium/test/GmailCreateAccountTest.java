@@ -2,6 +2,7 @@ package src.com.selenium.test;
 
 import org.testng.annotations.Test;
 import src.com.selenium.pageObjects.GmailAccountPage;
+import src.com.selenium.pageObjects.GmailVerifyAccountPage;
 
 public class GmailCreateAccountTest extends Setup {
 
@@ -17,5 +18,12 @@ public class GmailCreateAccountTest extends Setup {
                                        envProps.getProperty("gmail.password"),
                                        envProps.getProperty("gmail.password")
                                        );
+        GmailVerifyAccountPage gmailVerifyAccountPage = new GmailVerifyAccountPage(driver);
+        gmailVerifyAccountPage.verifyAccount(envProps.getProperty("gmail.phonenumber"));
+    }
+
+    @Test
+    public void completeAccount(){
+
     }
 }
